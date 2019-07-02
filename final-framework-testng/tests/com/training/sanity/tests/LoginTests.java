@@ -54,19 +54,9 @@ public class LoginTests {
 		loginPOM.clickDropdown();
 		loginPOM.clicklogin();
 		loginPOM.sendUserName("sudheer.katikireddy1993@gmail.com");
-		loginPOM.sendPassword("Sudheer123");
+		loginPOM.sendPassword("sudheer123");
 		loginPOM.clickLoginBtn(); 
-		//loginPOM.Edit();
-		//loginPOM.clickorder();
-		//screenShot.captureScreenShot("First");
-		//loginPOM.sendFirstNAME("surya");
-		//loginPOM.sendLastName("Divya");
-		//loginPOM.sendEmail("sudheer.katikireddy1993@gmail.com");
-		//loginPOM.sendTelephone("7989292376");
-		//loginPOM.clickContinue();
-		changePOM.ChangePassword();
-		changePOM.sendPassword("sudheer123");
-		changePOM.sendConfirmPassword("sudheer123");
-		changePOM.clickContinue();
+		loginPOM.clickorder();
+		loginPOM.clickContinue1();
 	}
 }

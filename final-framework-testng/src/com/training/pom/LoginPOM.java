@@ -29,35 +29,25 @@ public class LoginPOM {
 	
 	@FindBy(xpath="//input[@type='submit']")
 	private WebElement loginBtn; 
-	@FindBy(xpath="//a[text()='Edit Account']")
-	private WebElement EditAccount;
-	@FindBy(xpath="(//input[@type='text'])[1]")
-	private static WebElement FName;
-	@FindBy(xpath="(//input[@type='text'])[2]")
-	private WebElement LName;
-	@FindBy(xpath="//input[@type='email']")
-	private WebElement Email;
-	@FindBy(xpath="//input[@type='tel']")
-	private WebElement Telephone;
-	@FindBy(xpath="//input[@type='submit']")
-	private WebElement Continue;
-	//@FindBy(xpath="//a[text()='View your order history']")
-	//private WebElement order;
+	@FindBy(xpath="//a[text()='View your order history']")
+	private WebElement order;
+	
+	@FindBy(xpath="//a[text()='Continue']")
+	private WebElement continue1;
+	
 	public void clickDropdown() {
 	   this.Dropdown.click();
 	}
 	public void clicklogin() {
 		   this.login.click();
 	}
-	public void clickContinue() {
-		   this.Continue.click();
-	}
-   // public void clickorder() {
-	//this.order.click();
-	//	}
-	public void Edit() {
-		   this.EditAccount.click();
-	}
+	
+   public void clickorder() {
+	this.order.click();
+		}
+   public void clickContinue1() {
+	   this.continue1.click();
+}
 	public void sendUserName(String userName) {
 		this.userName.clear();
 		this.userName.sendKeys(userName);
@@ -67,23 +57,7 @@ public class LoginPOM {
 		this.password.clear(); 
 		this.password.sendKeys(password); 
 	}
-	public void sendEmail(String Email) {
-		this.Email.clear();
-		this.Email.sendKeys(Email);
-	}
 	
-	public void sendTelephone(String Telephone) {
-		this.Telephone.clear(); 
-		this.Telephone.sendKeys(Telephone);
-	}
-	public void sendFirstNAME(String FName) {
-			this.FName.clear();
-			this.FName.sendKeys(FName);
-		}
-	public void sendLastName(String LName) {
-			this.LName.clear(); 
-			this.LName.sendKeys(LName);
-	}
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
 	}
