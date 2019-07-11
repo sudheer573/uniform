@@ -34,31 +34,34 @@ public class LoginPOM {
 	
 	@FindBy(xpath="//a[text()='Continue']")
 	private WebElement continue1;
-	
+	/* Method to click on dropdown*/
 	public void clickDropdown() {
 	   this.Dropdown.click();
 	}
+	/* Method to click on login*/
 	public void clicklogin() {
 		   this.login.click();
 	}
-	
+	/* Method to click on order*/
    public void clickorder() {
 	this.order.click();
 		}
+   /* Method to click on continue1*/
    public void clickContinue1() {
 	   this.continue1.click();
 }
+   /* Method to send the username*/
 	public void sendUserName(String userName) {
 		this.userName.clear();
 		this.userName.sendKeys(userName);
 	}
-	
+	/* Method to send the password */
 	public void sendPassword(String password) {
 		this.password.clear(); 
 		this.password.sendKeys(password); 
 	}
-	
+	/* Method to click on loginbutton*/
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
-	}
+			}
 }

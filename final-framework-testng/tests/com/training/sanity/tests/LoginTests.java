@@ -50,10 +50,10 @@ public class LoginTests {
 		//driver.quit();
 	}
 	@Test
-	public void validLoginTest() {
+	public void ValidloginTest() {
 		loginPOM.clickDropdown();
 		loginPOM.clicklogin();
-		loginPOM.sendUserName("sudheer.katikireddy1993@gmail.com");
+		loginPOM.sendUserName("sudheer.katikireddy@gmail.com");
 		loginPOM.sendPassword("sudheer123");
 		loginPOM.clickLoginBtn(); 
 		loginPOM.clickorder();

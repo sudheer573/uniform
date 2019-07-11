@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16028" started-at="2019-07-02T05:58:14Z" finished-at="2019-07-02T05:58:30Z">
+  <suite name="Default suite" duration-ms="40612" started-at="2019-07-11T05:48:59Z" finished-at="2019-07-11T05:49:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16028" started-at="2019-07-02T05:58:14Z" finished-at="2019-07-02T05:58:30Z">
-      <class name="com.training.sanity.tests.ChangeTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.ChangeTests@51565ec2]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-07-02T11:28:14Z" finished-at="2019-07-02T11:28:14Z">
+    <test name="Default test" duration-ms="40612" started-at="2019-07-11T05:48:59Z" finished-at="2019-07-11T05:49:39Z">
+      <class name="com.training.sanity.tests.GuestOrder">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.GuestOrder@51565ec2]" name="setUpBeforeClass" is-config="true" duration-ms="7" started-at="2019-07-11T11:18:59Z" finished-at="2019-07-11T11:18:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.ChangeTests@51565ec2]" name="setUp" is-config="true" duration-ms="9775" started-at="2019-07-02T11:28:14Z" finished-at="2019-07-02T11:28:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.GuestOrder@51565ec2]" name="setUp" is-config="true" duration-ms="23240" started-at="2019-07-11T11:18:59Z" finished-at="2019-07-11T11:19:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validChangeTest()[pri:0, instance:com.training.sanity.tests.ChangeTests@51565ec2]" name="validChangeTest" duration-ms="5219" started-at="2019-07-02T11:28:24Z" finished-at="2019-07-02T11:28:29Z">
+        <test-method status="PASS" signature="GuestTest()[pri:0, instance:com.training.sanity.tests.GuestOrder@51565ec2]" name="GuestTest" duration-ms="16346" started-at="2019-07-11T11:19:22Z" finished-at="2019-07-11T11:19:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validChangeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.ChangeTests@51565ec2]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-07-02T11:28:29Z" finished-at="2019-07-02T11:28:30Z">
+        </test-method> <!-- GuestTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.GuestOrder@51565ec2]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-07-11T11:19:38Z" finished-at="2019-07-11T11:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.ChangeTests -->
+      </class> <!-- com.training.sanity.tests.GuestOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
